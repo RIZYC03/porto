@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portofolio</title>
+<meta name="description" content="Portofolio drafter engineering & desainer arsitektur">
+<style>
+:root{--bg:#f3f2ef;--card:#fff;--ink:#191919;--mut:#5f6368;--line:#e0dfdc;--ac:#0a66c2;--acx:#fff;--dan:#b3261e;--soft:#eaf2fb}
+@media(prefers-color-scheme:dark){:root{--bg:#121416;--card:#1c1f22;--ink:#ecebe8;--mut:#9aa0a6;--line:#2f3337;--ac:#71b7fb;--acx:#07203a;--dan:#ff8a80;--soft:#1a2b3d}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;padding-bottom:70px}
+h1,h2,h3{margin:0;line-height:1.25}
+a{color:var(--ac)}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--ac);outline-offset:2px}
+nav{position:sticky;top:0;z-index:5;background:var(--card);border-bottom:1px solid var(--line);display:flex;gap:4px;padding:6px 12px;overflow-x:auto;white-space:nowrap}
+nav a{padding:8px 12px;border-radius:6px;color:var(--mut);text-decoration:none;font-weight:600}
+nav a:hover{background:var(--soft);color:var(--ac)}
+main{max-width:860px;margin:16px auto;padding:0 12px;display:grid;gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:20px;position:relative}
+.pc{padding:0;overflow:hidden}
+.ban{height:170px;background:linear-gradient(120deg,#0b3a5e,#1e78b8 70%,#5db1e6);display:flex;justify-content:flex-end}
+.ban img{height:100%;object-fit:contain}
+.av{width:132px;height:132px;border-radius:50%;border:4px solid var(--card);background:linear-gradient(#dfe8ef,#b8c9d6);object-fit:cover;object-position:top;margin:-70px 0 0 24px;position:relative;display:block}
+.pb{padding:10px 24px 22px}
+.pb h1{font-size:26px}.hl{font-size:17px;margin-top:2px}
+.meta{color:var(--mut);font-size:14px}
+.cta{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.btn{border:1px solid var(--ac);background:transparent;color:var(--ac);padding:7px 16px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;display:inline-block}
+.btn:hover{background:var(--soft)}
+.btn.p{background:var(--ac);color:var(--acx)}.btn.p:hover{opacity:.9}
+.btn.g{border-color:var(--line);color:var(--ink)}
+.btn.d{border-color:var(--dan);color:var(--dan)}
+.btn.s{padding:3px 12px;font-size:13px}
+.card>h2{font-size:20px;margin-bottom:12px;display:flex;justify-content:space-between;align-items:center;gap:8px}
+.about{white-space:pre-line;margin:0}
+.row{display:flex;gap:14px;padding:12px 0;border-top:1px solid var(--line)}
+.row:first-of-type{border-top:0;padding-top:0}
+.lg{flex:none;width:48px;height:48px;border-radius:8px;background:var(--soft);color:var(--ac);display:grid;place-items:center;font-weight:700;font-size:20px}
+.rb{flex:1;min-width:0}
+.rb h3{font-size:16px}
+.rb ul{margin:8px 0 0;padding-left:18px}
+.act{display:flex;gap:6px;margin-top:8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+.pj{border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--card);display:flex;flex-direction:column}
+.pj .th{aspect-ratio:16/10;background:var(--soft);position:relative;cursor:pointer;border:0;padding:0;width:100%}
+.th img{width:100%;height:100%;object-fit:cover;display:block}
+.th span{position:absolute;right:8px;bottom:8px;background:rgba(0,0,0,.65);color:#fff;font-size:12px;padding:2px 8px;border-radius:999px}
+.pj .pt{padding:12px;display:flex;flex-direction:column;gap:2px;flex:1}
+.pt h3{font-size:15px}
+.pt p{margin:4px 0 0;font-size:13px;color:var(--mut);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips span{border:1px solid var(--line);border-radius:999px;padding:4px 12px;font-size:14px}
+.more{display:block;margin:14px auto 0}
+form{display:grid;gap:12px}
+label{display:grid;gap:4px;font-weight:600;font-size:13px}
+input,select,textarea{padding:9px 11px;border:1px solid var(--line);border-radius:8px;background:var(--card);width:100%}
+textarea{min-height:90px;resize:vertical}
+dialog{border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);width:min(640px,95vw);padding:20px;max-height:92vh}
+dialog::backdrop{background:rgba(0,0,0,.6)}
+dialog h2{font-size:20px;margin-bottom:12px}
+.fr{display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap}
+.gm{width:100%;max-height:55vh;object-fit:contain;background:var(--soft);border-radius:8px;display:block;cursor:zoom-in}
+.gt{display:flex;gap:6px;overflow-x:auto;margin:8px 0}
+.gt img{width:64px;height:46px;object-fit:cover;border-radius:6px;cursor:pointer;border:2px solid transparent;flex:none}
+.gt img.on{border-color:var(--ac)}
+.tn{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0}
+.tn div{position:relative}.tn img{width:72px;height:54px;object-fit:cover;border-radius:6px}
+.tn button{position:absolute;top:-6px;right:-6px;border-radius:50%;border:0;background:var(--dan);color:#fff;width:20px;height:20px;cursor:pointer;line-height:1}
+#lb{padding:0;width:auto;max-width:96vw;background:transparent;border:0}
+#lb img{max-width:96vw;max-height:92vh;display:block;border-radius:8px;background:#fff}
+.ro,.adm{display:none}
+body.edit .ro{display:inline-block}
+body.edit .adm{display:flex}
+.bar{position:fixed;left:0;right:0;bottom:0;background:var(--ink);color:var(--bg);padding:10px 16px;gap:10px;align-items:center;justify-content:space-between;z-index:9;flex-wrap:wrap}
+.bar .btn{border-color:var(--bg);color:var(--bg)}.bar .btn.p{background:var(--ac);border-color:var(--ac);color:var(--acx)}
+footer{text-align:center;color:var(--mut);font-size:13px;padding:8px 12px 24px}
+.note{font-size:12px;color:var(--mut);font-weight:400}
+</style>
+</head>
+<body>
+<nav id="nav"><a href="#tentang">Tentang</a><a href="#pengalaman">Pengalaman</a><a href="#hasil">Hasil kerja</a><a href="#dok">Dokumentasi</a><a href="#kontak">Kontak</a></nav>
+<main id="app"><div class="card">Memuat...</div></main>
+<footer id="ft"></footer>
+<div class="bar adm"><span id="st">Mode admin — perubahan belum dipublikasikan.</span><span style="display:flex;gap:8px"><button class="btn p" id="bPub">Publikasikan</button><button class="btn" id="bOut">Keluar</button></span></div>
+
+<dialog id="dd"><div id="ddb"></div><div class="fr" style="margin-top:12px"><button class="btn g" data-close>Tutup</button></div></dialog>
+<dialog id="de"><h2 id="det"></h2><form id="fe" method="dialog"><div id="feb" style="display:grid;gap:12px"></div><div class="fr"><button type="button" class="btn g" data-close>Batal</button><button class="btn p">Simpan</button></div></form></dialog>
+<dialog id="dl"><h2>Masuk admin</h2>
+<form id="fl" method="dialog">
+<p class="note">Hanya pemilik repo GitHub yang bisa mengubah isi web. Buat token di GitHub: Settings → Developer settings → Fine-grained tokens → pilih repo ini saja → izin <b>Contents: Read and write</b>. Token hanya disimpan di browser ini.</p>
+<label>Username GitHub<input id="lo" required></label>
+<label>Nama repository<input id="lr" required></label>
+<label>Branch<input id="lb2" value="main" required></label>
+<label>Token<input id="lt" type="password" required autocomplete="off"></label>
+<div class="fr"><button type="button" class="btn g" data-close>Batal</button><button class="btn p">Masuk</button></div></form></dialog>
+<dialog id="lb"><img id="lbi" alt=""></dialog>
+
+<script>
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const SEC={
+ experience:{t:'Pengalaman',a:'Tambah pengalaman',f:{title:'Jabatan',sub:'Perusahaan',period:'Periode (mis. Jun 2025 – sekarang)',place:'Lokasi',desc:'Uraian tugas (satu poin per baris)'}},
+ education:{t:'Pendidikan',a:'Tambah pendidikan',f:{title:'Jurusan / program',sub:'Sekolah / kampus',period:'Periode',desc:'Keterangan (opsional)'}},
+ work:{t:'Hasil kerja',a:'Tambah proyek',img:1,f:{title:'Nama proyek',sub:'Lokasi / klien',period:'Tahun / periode',desc:'Konsep dan keterangan',list:'Lingkup pekerjaan (satu per baris)',tools:'Tools'}},
+ docs:{t:'Dokumentasi',a:'Tambah dokumentasi',img:1,f:{title:'Judul',sub:'Lokasi',period:'Tanggal',desc:'Keterangan'}}
+};
+let D,A=JSON.parse(localStorage.getItem('adm')||'null'),dirty=false,PREV={},more={},ED=null,G=null,SHA=null;
+const src=p=>PREV[p]||p;
+const edit=()=>!!A;
+
+/* ---------- GitHub ---------- */
+const b64=s=>btoa(unescape(encodeURIComponent(s)));
+function gh(path,method='GET',body){return fetch(`https://api.github.com/repos/${A.o}/${A.r}/contents/${path}`+(method==='GET'?`?ref=${A.b}&t=${Date.now()}`:''),{method,headers:{Authorization:'Bearer '+A.t,Accept:'application/vnd.github+json'},body:body&&JSON.stringify(body)})}
+async function ghLoad(){const r=await gh('data.json');if(!r.ok)throw 0;const j=await r.json();SHA=j.sha;return JSON.parse(decodeURIComponent(escape(atob(j.content.replace(/\s/g,'')))))}
+async function publish(){
+  const st=$('#st');$('#bPub').disabled=true;
+  try{
+    const ups=[];const all=[D.profile,...['work','docs'].flatMap(k=>D[k])];
+    for(const o of all){for(const k of (o.images?['images']:[]))for(let i=0;i<o[k].length;i++)if(o[k][i].startsWith('data:'))ups.push([o[k],i])}
+    if(D.profile.photo.startsWith('data:'))ups.push([D.profile,'photo']);
+    let n=0;
+    for(const [h,k] of ups){
+      st.textContent=`Mengunggah gambar ${++n}/${ups.length}...`;
+      const du=h[k],ext=du.startsWith('data:image/webp')?'webp':du.startsWith('data:image/png')?'png':'jpg';
+      const path=`images/u${Date.now().toString(36)}${n}.${ext}`;
+      const r=await gh(path,'PUT',{message:'Upload gambar',content:du.split(',')[1],branch:A.b});
+      if(!r.ok)throw new Error('Gagal mengunggah gambar ('+r.status+')');
+      PREV[path]=du;h[k]=path;
+    }
+    st.textContent='Menyimpan data.json...';
+    const cur=await gh('data.json');const sha=cur.ok?(await cur.json()).sha:undefined;
+    const r=await gh('data.json','PUT',{message:'Update portofolio',content:b64(JSON.stringify(D,null,1)),branch:A.b,sha});
+    if(!r.ok)throw new Error('Gagal menyimpan data.json ('+r.status+')');
+    dirty=false;st.textContent='Terpublikasi. Situs publik diperbarui otomatis oleh Vercel dalam ±1 menit.';
+  }catch(e){st.textContent='Error: '+e.message+' — periksa token dan nama repo.'}
+  $('#bPub').disabled=false;
+}
+function shrink(file,max,type){return new Promise((ok,no)=>{const r=new FileReader();r.onerror=no;r.onload=()=>{const im=new Image();im.onerror=no;im.onload=()=>{const k=Math.min(1,max/Math.max(im.width,im.height)),c=document.createElement('canvas');c.width=Math.round(im.width*k);c.height=Math.round(im.height*k);c.getContext('2d').drawImage(im,0,0,c.width,c.height);ok(c.toDataURL(type,.82))};im.src=r.result};r.readAsDataURL(file)})}
+
+/* ---------- render ---------- */
+const lines=s=>String(s||'').split('\n').map(x=>x.trim()).filter(Boolean);
+function acts(k,id){return `<div class="act ro"><button class="btn s g" data-e="${k}|${id}">Ubah</button><button class="btn s d" data-x="${k}|${id}">Hapus</button></div>`}
+function secHead(k){return `<h2>${SEC[k].t}<button class="btn s ro" data-a="${k}">+ ${SEC[k].a.replace('Tambah ','Tambah ')}</button></h2>`}
+function rowHtml(k,i){const m=[i.sub,i.period,i.place].filter(Boolean).map(esc).join(' • ');
+  return `<div class="row"><div class="lg">${esc((i.sub||i.title||'?')[0]).toUpperCase()}</div><div class="rb"><h3>${esc(i.title)}</h3><div class="meta">${m}</div>${lines(i.desc).length?`<ul>${lines(i.desc).map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}${acts(k,i.id)}</div></div>`}
+function cardHtml(k,i){const n=i.images.length;
+  return `<article class="pj"><button class="th" data-v="${k}|${i.id}" aria-label="Lihat ${esc(i.title)}">${n?`<img loading="lazy" src="${esc(src(i.images[0]))}" alt="${esc(i.title)}"><span>${n} foto</span>`:''}</button><div class="pt"><h3>${esc(i.title)}</h3><div class="meta">${[i.sub,i.period].filter(Boolean).map(esc).join(' • ')}</div>${i.desc?`<p>${esc(i.desc)}</p>`:''}${acts(k,i.id)}</div></article>`}
+function gridSec(k,id){const L=D[k],N=6,show=more[k]?L:L.slice(0,N);
+  return `<section class="card" id="${id}">${secHead(k)}${L.length?`<div class="grid">${show.map(i=>cardHtml(k,i)).join('')}</div>${L.length>N?`<button class="btn more" data-m="${k}">${more[k]?'Tampilkan lebih sedikit':'Tampilkan semua ('+L.length+')'}</button>`:''}`:'<p class="meta">Belum ada isi.</p>'}</section>`}
+function render(){
+  const p=D.profile;document.title=p.name+' — Portofolio';
+  document.body.classList.toggle('edit',edit());
+  const wa=(p.wa||'').replace(/\D/g,''),ext=u=>/^https?:\/\//i.test(u||'')?u:'';
+  const L=[p.email&&`<a class="btn" href="mailto:${esc(p.email)}">${esc(p.email)}</a>`,wa&&`<a class="btn" target="_blank" rel="noopener" href="https://wa.me/${wa}">WhatsApp</a>`,...[['linkedin','LinkedIn'],['github','GitHub'],['instagram','Instagram']].map(([k,n])=>ext(p[k])&&`<a class="btn" target="_blank" rel="noopener" href="${esc(p[k])}">${n}</a>`)].filter(Boolean).join('');
+  $('#app').innerHTML=
+  `<section class="card pc"><div class="ban">${p.banner?`<img src="${esc(src(p.banner))}" alt="">`:''}</div><img class="av" src="${esc(src(p.photo))}" alt="Foto ${esc(p.name)}"><div class="pb"><h1>${esc(p.name)}</h1><div class="hl">${esc(p.headline)}</div><div class="meta">${esc(p.location)}</div><div class="cta"><a class="btn p" href="#kontak">Hubungi saya</a><a class="btn" href="#hasil">Lihat hasil kerja</a><button class="btn ro" data-pe>Ubah profil</button></div></div></section>
+  <section class="card" id="tentang"><h2>Tentang</h2><p class="about">${esc(p.about)}</p></section>
+  <section class="card" id="pengalaman">${secHead('experience')}${D.experience.map(i=>rowHtml('experience',i)).join('')||'<p class="meta">Belum ada isi.</p>'}</section>
+  <section class="card">${secHead('education')}${D.education.map(i=>rowHtml('education',i)).join('')||'<p class="meta">Belum ada isi.</p>'}</section>
+  ${gridSec('work','hasil')}
+  ${gridSec('docs','dok')}
+  <section class="card"><h2>Keahlian</h2><div class="chips">${(p.skills||[]).map(s=>`<span>${esc(s)}</span>`).join('')}</div></section>
+  <section class="card" id="kontak"><h2>Kontak resmi</h2><div class="cta" style="margin:0 0 16px">${L||'<span class="meta">Kontak belum diisi.</span>'}</div>
+  <form id="cf" novalidate><label>Nama Anda<input id="cn" required autocomplete="name"></label><label>Email Anda<input id="ce" type="email" required autocomplete="email"></label><label>Pesan<textarea id="cm" required></textarea></label><div class="fr" style="justify-content:flex-start"><button class="btn p" data-via="mail">Kirim lewat email</button><button class="btn" data-via="wa">Kirim lewat WhatsApp</button></div></form></section>`;
+  $('#ft').innerHTML=`© ${new Date().getFullYear()} ${esc(p.name)} · <a href="#" id="aLogin">Admin</a>`;
+  $('#aLogin').onclick=e=>{e.preventDefault();if(A){alert('Anda sudah masuk sebagai admin.')}else{$('#dl').showModal()}};
+  $('#cf').onsubmit=sendMsg;
+}
+function sendMsg(e){e.preventDefault();const p=D.profile,n=$('#cn').value.trim(),m=$('#cm').value.trim(),em=$('#ce').value.trim(),via=e.submitter?.dataset.via;
+  if(!n||!m||!/^\S+@\S+\.\S+$/.test(em)){alert('Isi nama, email yang valid, dan pesan.');return}
+  const body=`${m}\n\nDari: ${n} (${em})`;
+  if(via==='wa'){if(!p.wa){alert('Nomor WhatsApp belum tersedia.');return}open(`https://wa.me/${p.wa.replace(/\D/g,'')}?text=${encodeURIComponent(body)}`,'_blank')}
+  else{if(!p.email){alert('Email belum tersedia.');return}location.href=`mailto:${p.email}?subject=${encodeURIComponent('Pesan dari '+n)}&body=${encodeURIComponent(body)}`}}
+
+/* ---------- detail & galeri ---------- */
+function showGal(){const i=G.l[G.i];$('#gm').src=src(i);$('#gm').alt=G.t;document.querySelectorAll('.gt img').forEach((x,j)=>x.classList.toggle('on',j===G.i))}
+function openView(k,id){const it=D[k].find(x=>x.id===id);if(!it)return;G={l:it.images,i:0,t:it.title};
+  $('#ddb').innerHTML=`<h2>${esc(it.title)}</h2><div class="meta" style="margin-bottom:10px">${[it.sub,it.period].filter(Boolean).map(esc).join(' • ')}</div>${it.images.length?`<img id="gm" class="gm" alt="">${it.images.length>1?`<div class="gt">${it.images.map((x,j)=>`<img src="${esc(src(x))}" data-g="${j}" alt="Foto ${j+1}">`).join('')}</div>`:''}`:''}${it.desc?`<p style="white-space:pre-line">${esc(it.desc)}</p>`:''}${lines((it.list||[]).join?it.list.join('\n'):it.list).length?`<b>Lingkup pekerjaan</b><ul>${it.list.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}${it.tools?`<p class="meta">Tools: ${esc(it.tools)}</p>`:''}`;
+  if(it.images.length)showGal();$('#dd').showModal()}
+
+/* ---------- editor ---------- */
+function openEdit(k,id){const isNew=!id;const it=isNew?{id:'i'+Date.now().toString(36),title:'',sub:'',period:'',place:'',desc:'',list:[],tools:'',images:[]}:JSON.parse(JSON.stringify(D[k].find(x=>x.id===id)));
+  ED={k,it,isNew,prof:false};$('#det').textContent=(isNew?SEC[k].a:'Ubah '+SEC[k].t.toLowerCase());
+  const f=SEC[k].f;
+  $('#feb').innerHTML=Object.entries(f).map(([n,l])=>{const v=n==='list'?(it.list||[]).join('\n'):it[n]||'';return `<label>${l}${['desc','list'].includes(n)?`<textarea name="${n}">${esc(v)}</textarea>`:`<input name="${n}" value="${esc(v)}" ${n==='title'?'required':''}>`}</label>`}).join('')+(SEC[k].img?`<label>Tambah gambar (boleh banyak)<input type="file" id="fi" accept="image/*" multiple></label><div class="tn" id="tn"></div>`:'');
+  thumbs();$('#de').showModal()}
+function thumbs(){const t=$('#tn');if(!t)return;t.innerHTML=ED.it.images.map((x,j)=>`<div><img src="${esc(src(x))}" alt=""><button type="button" data-rm="${j}" aria-label="Hapus gambar">×</button></div>`).join('')}
+function openProf(){const p=D.profile;ED={prof:true,photo:p.photo};$('#det').textContent='Ubah profil';
+  const F=[['name','Nama'],['headline','Headline / profesi'],['location','Lokasi'],['about','Tentang saya','t'],['email','Email resmi'],['wa','Nomor WhatsApp (contoh 6281234567890)'],['linkedin','LinkedIn (URL)'],['github','GitHub (URL)'],['instagram','Instagram (URL)'],['skills','Keahlian (satu per baris)','t']];
+  $('#feb').innerHTML=`<label>Foto profil<input type="file" id="fp" accept="image/*"></label>`+F.map(([n,l,t])=>{const v=n==='skills'?(p.skills||[]).join('\n'):p[n]||'';return `<label>${l}${t?`<textarea name="${n}" style="min-height:${n==='about'?160:110}px">${esc(v)}</textarea>`:`<input name="${n}" value="${esc(v)}">`}</label>`}).join('');
+  $('#de').showModal()}
+$('#fe').onsubmit=()=>{const fd=new FormData($('#fe'));
+  if(ED.prof){const p=D.profile;for(const [k,v] of fd.entries()){if(k==='skills')p.skills=lines(v);else if(k in p)p[k]=String(v).trim()}p.photo=ED.photo}
+  else{const{k,it,isNew}=ED;for(const [n,v] of fd.entries()){if(n==='fi')continue;it[n]=n==='list'?lines(v):String(v).trim()}if(isNew)D[k].unshift(it);else D[k]=D[k].map(x=>x.id===it.id?it:x)}
+  mark();render()};
+function mark(){dirty=true;$('#st').textContent='Ada perubahan yang belum dipublikasikan.'}
+
+/* ---------- events ---------- */
+document.addEventListener('click',e=>{const t=e.target,c=s=>t.closest(s);
+  if(c('[data-close]'))return c('dialog').close();
+  let m;
+  if(m=c('[data-v]'))return openView(...m.dataset.v.split('|'));
+  if(m=c('[data-m]')){more[m.dataset.m]=!more[m.dataset.m];return render()}
+  if(m=c('[data-g]')){G.i=+m.dataset.g;return showGal()}
+  if(t.id==='gm'){$('#lbi').src=t.src;return $('#lb').showModal()}
+  if(c('#lb'))return $('#lb').close();
+  if(m=c('[data-e]'))return openEdit(...m.dataset.e.split('|'));
+  if(m=c('[data-a]'))return openEdit(m.dataset.a);
+  if(m=c('[data-x]')){const[k,id]=m.dataset.x.split('|');if(confirm('Hapus item ini?')){D[k]=D[k].filter(x=>x.id!==id);mark();render()}return}
+  if(c('[data-pe]'))return openProf();
+  if(m=c('[data-rm]')){ED.it.images.splice(+m.dataset.rm,1);return thumbs()}
+});
+document.addEventListener('change',async e=>{
+  if(e.target.id==='fi'){for(const f of e.target.files)ED.it.images.push(await shrink(f,1400,'image/jpeg'));e.target.value='';thumbs()}
+  if(e.target.id==='fp'&&e.target.files[0]){ED.photo=await shrink(e.target.files[0],700,'image/webp');alert('Foto dipilih. Klik "Simpan" untuk menerapkan.')}
+});
+document.addEventListener('keydown',e=>{if(!G||!$('#dd').open||!G.l.length)return;if(e.key==='ArrowRight'){G.i=(G.i+1)%G.l.length;showGal()}if(e.key==='ArrowLeft'){G.i=(G.i-1+G.l.length)%G.l.length;showGal()}});
+$('#bPub').onclick=publish;
+$('#bOut').onclick=()=>{if(dirty&&!confirm('Perubahan belum dipublikasikan akan hilang. Keluar?'))return;localStorage.removeItem('adm');location.reload()};
+$('#fl').onsubmit=async()=>{const a={o:$('#lo').value.trim(),r:$('#lr').value.trim(),b:$('#lb2').value.trim(),t:$('#lt').value.trim()};
+  try{const r=await fetch(`https://api.github.com/repos/${a.o}/${a.r}`,{headers:{Authorization:'Bearer '+a.t}});const j=await r.json();
+    if(!r.ok||!j.permissions?.push)throw 0;A=a;localStorage.setItem('adm',JSON.stringify(a));try{D=await ghLoad()}catch(x){}render()}
+  catch(e){alert('Login gagal. Periksa username, repo, branch, dan izin token (Contents: Read and write).')}};
+window.onbeforeunload=()=>dirty?'':undefined;
+
+(async()=>{
+  try{if(A)D=await ghLoad()}catch(e){}
+  if(!D){try{D=await (await fetch('data.json?'+Date.now())).json()}catch(e){$('#app').innerHTML='<div class="card">Gagal memuat data.json.</div>';return}}
+  render();
+})();
+</script>
+</body>
+</html>
