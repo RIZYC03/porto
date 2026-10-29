@@ -1,0 +1,626 @@
+{
+ "profile": {
+  "name": "Muhammad Rizky A.N.F.M",
+  "headline": "Drafter Engineering & Architectural Designer",
+  "location": "Cianjur City, Jawa Barat",
+  "email": "mhummadrizky03@gmail.com",
+  "wa": "6283829223262",
+  "linkedin": "",
+  "github": "",
+  "instagram": "",
+  "photo": "images/profil.webp",
+  "banner": "images/banner.webp",
+  "about": "Engineering Drafter, Site Supervisor, and Field Surveyor with 3 years of experience in architectural projects and a background in DPIB Architecture. Experienced in site surveys to produce accurate Detail Engineering Design (DED) and As-Built Drawings, and in supervising field execution to ensure compliance with technical standards. Proficient in 3D modeling and rendering using SketchUp and Enscape, and in fabricating scale physical models with 3D printing.\n\nHave worked on over 100 projects covering construction drawings, 3D facades, and rendering.",
+  "skills": [
+   "Architectural design",
+   "Working drawings / AutoCAD",
+   "3D modeling & visualization",
+   "Site survey & as-built",
+   "Shop drawing, DED, PBG & SLF",
+   "Site supervision",
+   "3D printing & scale models"
+  ],
+  "tools": [
+   "AutoCAD",
+   "SketchUp",
+   "Enscape",
+   "Bambu Studio",
+   "Microsoft Office"
+  ],
+  "tagline": "Dari konsep, gambar kerja, hingga bangunan jadi."
+ },
+ "experience": [
+  {
+   "id": "e1",
+   "title": "Drafter Engineering & Architectural Designer",
+   "sub": "PT Mitra Bangun Rumah",
+   "period": "Jun 2025 – sekarang",
+   "place": "Cianjur City",
+   "desc": "Prepared comprehensive shop drawings, 3D architectural modeling, and high-quality Enscape renderings for residential projects.\nConducted initial site surveys to gather precise field measurements and technical project data.\nSupervised site operations and construction progress to ensure strict alignment with technical drawings and safety standards.",
+   "images": []
+  },
+  {
+   "id": "e2",
+   "title": "3D Print Designer & Machine Operator",
+   "sub": "CV Wave 3D Printing",
+   "period": "Jan 2025 – Jun 2025",
+   "place": "Jakarta Barat",
+   "desc": "Designed 3D digital models and prepared STL/G-code files for precision 3D printing.\nOperated and maintained 3D printing machinery to produce high-accuracy architectural and physical components.\nAssembled and post-processed 3D-printed parts into fully finished physical scale models.",
+   "images": []
+  },
+  {
+   "id": "e3",
+   "title": "Drafter Engineering & Surveyor",
+   "sub": "PT New Acitya Consultant",
+   "period": "2024 – 2025",
+   "place": "Cianjur City",
+   "desc": "Performed site surveys to capture accurate baseline measurements for building permit documentation.\nDeveloped accurate As-Built Drawings required for SLF (Sertifikat Laik Fungsi) and PBG (Persetujuan Bangunan Gedung) compliance.\nCollaborated with the engineering team to verify structural and spatial conditions on-site.",
+   "images": []
+  }
+ ],
+ "education": [
+  {
+   "id": "s1",
+   "title": "DPIB Architecture (Design Modeling and Building Information)",
+   "sub": "SMK Negeri 1 Cianjur",
+   "period": "Jul 2021 – Jun 2024",
+   "place": "",
+   "desc": "",
+   "images": []
+  }
+ ],
+ "work": [
+  {
+   "id": "w1",
+   "title": "Rumah Bapak Ichsan",
+   "sub": "Tangerang",
+   "period": "",
+   "desc": "Renovating a house and rental property into a 2-story building. A modern minimalist house with rental units at the rear and a balcony with a mini garden.",
+   "list": [
+    "Design concept",
+    "Floor plans / working drawings",
+    "Elevations and sections",
+    "3D visualization"
+   ],
+   "tools": "AutoCAD, SketchUp",
+   "images": [
+    "images/p003-004.jpg",
+    "images/p005-010.jpg",
+    "images/p006-011.jpg",
+    "images/p006-012.jpg",
+    "images/p006-013.jpg"
+   ],
+   "types": [
+    "3d",
+    "3d",
+    "2d",
+    "2d",
+    "3d"
+   ]
+  },
+  {
+   "id": "w2",
+   "title": "Rumah Bapak Amir",
+   "sub": "Jakarta Utara",
+   "period": "",
+   "desc": "Complete renovation. A house with a rooftop balcony and a basement, elevated well above the street level to avoid flooding.",
+   "list": [
+    "Design concept",
+    "Floor plans / working drawings",
+    "Elevations and sections",
+    "3D visualization",
+    "3D Structure"
+   ],
+   "tools": "AutoCAD, SketchUp",
+   "images": [
+    "images/p003-005.jpg",
+    "images/p007-014.jpg",
+    "images/p008-015.jpg",
+    "images/p008-016.jpg",
+    "images/p008-017.jpg",
+    "images/p009-018.jpg",
+    "images/p009-019.jpg",
+    "images/p009-020.jpg",
+    "images/p010-021.jpg",
+    "images/p010-022.jpg",
+    "images/p010-023.jpg"
+   ],
+   "types": [
+    "3d",
+    "3d",
+    "2d",
+    "2d",
+    "2d",
+    "3d",
+    "3d",
+    "3d",
+    "3d",
+    "3d",
+    "3d"
+   ]
+  },
+  {
+   "id": "w3",
+   "title": "Rumah Ibu Ella",
+   "sub": "Cianjur",
+   "period": "",
+   "desc": "A minimalist-concept house on a corner lot, featuring a spacious parking area and a large family room.",
+   "list": [
+    "Design concept",
+    "Floor plans / working drawings",
+    "Elevations and sections",
+    "3D visualization"
+   ],
+   "tools": "AutoCAD, SketchUp",
+   "images": [
+    "images/p003-006.jpg",
+    "images/p011-024.jpg",
+    "images/p012-025.jpg",
+    "images/p012-026.jpg",
+    "images/p012-027.jpg",
+    "images/p013-028.jpg",
+    "images/p013-029.jpg",
+    "images/p013-030.jpg"
+   ],
+   "types": [
+    "3d",
+    "3d",
+    "2d",
+    "2d",
+    "2d",
+    "3d",
+    "3d",
+    "3d"
+   ]
+  },
+  {
+   "id": "w4",
+   "title": "Rumah Ibu Lilis",
+   "sub": "Cikarang",
+   "period": "",
+   "desc": "A classic-minimalist house with two floors and external access to the second floor.",
+   "list": [
+    "Design concept",
+    "Floor plans / working drawings",
+    "Elevations and sections",
+    "3D visualization"
+   ],
+   "tools": "AutoCAD, SketchUp, Enscape",
+   "images": [
+    "images/p004-007.jpg",
+    "images/p014-031.jpg",
+    "images/p015-032.jpg",
+    "images/p015-033.jpg",
+    "images/p015-034.jpg",
+    "images/p015-035.jpg",
+    "images/p016-036.jpg",
+    "images/p016-037.jpg",
+    "images/p016-038.jpg",
+    "images/p017-039.jpg",
+    "images/p017-040.jpg",
+    "images/p017-041.jpg"
+   ],
+   "types": [
+    "3d",
+    "3d",
+    "2d",
+    "2d",
+    "2d",
+    "2d",
+    "3d",
+    "3d",
+    "3d",
+    "3d",
+    "3d",
+    "3d"
+   ]
+  },
+  {
+   "id": "w5",
+   "title": "Rumah minimalis, renovasi 1 lantai menjadi 2 lantai",
+   "sub": "",
+   "period": "",
+   "desc": "Renovating a 1-story house into a 2-story minimalist house.",
+   "list": [
+    "Design concept",
+    "Floor plans / working drawings",
+    "Elevations and sections",
+    "3D visualization"
+   ],
+   "tools": "AutoCAD, SketchUp",
+   "images": [
+    "images/p004-008.jpg"
+   ],
+   "types": [
+    "3d"
+   ]
+  },
+  {
+   "id": "w6",
+   "title": "Rumah Bapak Uha",
+   "sub": "Kuningan",
+   "period": "",
+   "desc": "A modern-style house for a rural setting, featuring a combination of striking colors.",
+   "list": [
+    "Design concept",
+    "Floor plans / working drawings",
+    "Elevations and sections",
+    "3D visualization"
+   ],
+   "tools": "AutoCAD, SketchUp, Enscape",
+   "images": [
+    "images/p004-009.jpg",
+    "images/p018-042.jpg",
+    "images/p019-043.jpg",
+    "images/p019-044.jpg",
+    "images/p019-045.jpg",
+    "images/p020-046.jpg",
+    "images/p020-047.jpg",
+    "images/p020-048.jpg",
+    "images/p021-049.jpg",
+    "images/p021-050.jpg",
+    "images/p021-051.jpg"
+   ],
+   "types": [
+    "3d",
+    "3d",
+    "2d",
+    "2d",
+    "2d",
+    "3d",
+    "3d",
+    "3d",
+    "3d",
+    "3d",
+    "3d"
+   ]
+  },
+  {
+   "id": "w7",
+   "title": "Rumah Bapak Wahyu",
+   "sub": "Bandung",
+   "period": "",
+   "desc": "Gambar kerja, fasad 3D, dan rendering.",
+   "list": [],
+   "tools": "AutoCAD, SketchUp",
+   "images": [
+    "images/p022-052.jpg"
+   ],
+   "types": [
+    "3d"
+   ]
+  },
+  {
+   "id": "w8",
+   "title": "Rumah Bapak Iqbal",
+   "sub": "Banten",
+   "period": "",
+   "desc": "Gambar kerja, fasad 3D, dan rendering.",
+   "list": [],
+   "tools": "AutoCAD, SketchUp",
+   "images": [
+    "images/p022-053.jpg"
+   ],
+   "types": [
+    "3d"
+   ]
+  },
+  {
+   "id": "w9",
+   "title": "Rumah Ibu Dina",
+   "sub": "Jakarta Utara",
+   "period": "",
+   "desc": "Gambar kerja, fasad 3D, dan rendering.",
+   "list": [],
+   "tools": "AutoCAD, SketchUp",
+   "images": [
+    "images/p022-054.jpg"
+   ],
+   "types": [
+    "3d"
+   ]
+  },
+  {
+   "id": "w10",
+   "title": "Rumah Bapak Yuswanto",
+   "sub": "Jakarta Selatan",
+   "period": "",
+   "desc": "Gambar kerja, fasad 3D, dan rendering.",
+   "list": [],
+   "tools": "AutoCAD, SketchUp",
+   "images": [
+    "images/p023-055.jpg"
+   ],
+   "types": [
+    "3d"
+   ]
+  },
+  {
+   "id": "w11",
+   "title": "Kantor Ibu Hamidah",
+   "sub": "Cipayung",
+   "period": "",
+   "desc": "Gambar kerja, fasad 3D, dan rendering.",
+   "list": [],
+   "tools": "AutoCAD, SketchUp",
+   "images": [
+    "images/p023-056.jpg"
+   ],
+   "types": [
+    "3d"
+   ]
+  },
+  {
+   "id": "w12",
+   "title": "Cluster perumahan Cilaku",
+   "sub": "Cianjur",
+   "period": "",
+   "desc": "Gambar kerja, fasad 3D, dan rendering.",
+   "list": [],
+   "tools": "AutoCAD, SketchUp",
+   "images": [
+    "images/p023-057.jpg"
+   ],
+   "types": [
+    "3d"
+   ]
+  },
+  {
+   "id": "w13",
+   "title": "Rumah Bapak Deni",
+   "sub": "Bogor",
+   "period": "",
+   "desc": "Gambar kerja, fasad 3D, dan rendering.",
+   "list": [],
+   "tools": "AutoCAD, SketchUp",
+   "images": [
+    "images/p024-058.jpg"
+   ],
+   "types": [
+    "3d"
+   ]
+  },
+  {
+   "id": "w14",
+   "title": "Rumah Bapak Wawan",
+   "sub": "Banten",
+   "period": "",
+   "desc": "Gambar kerja, fasad 3D, dan rendering.",
+   "list": [],
+   "tools": "AutoCAD, SketchUp",
+   "images": [
+    "images/p024-059.jpg"
+   ],
+   "types": [
+    "3d"
+   ]
+  },
+  {
+   "id": "w15",
+   "title": "Rumah Ibu Fievie",
+   "sub": "Jakarta Barat",
+   "period": "",
+   "desc": "Gambar kerja, fasad 3D, dan rendering.",
+   "list": [],
+   "tools": "AutoCAD, SketchUp",
+   "images": [
+    "images/p024-060.jpg"
+   ],
+   "types": [
+    "3d"
+   ]
+  },
+  {
+   "id": "w16",
+   "title": "Rumah Bapak Guntar",
+   "sub": "Cikarang",
+   "period": "",
+   "desc": "Gambar kerja, fasad 3D, dan rendering.",
+   "list": [],
+   "tools": "AutoCAD, SketchUp",
+   "images": [
+    "images/p025-061.jpg"
+   ],
+   "types": [
+    "3d"
+   ]
+  },
+  {
+   "id": "w17",
+   "title": "Rumah Bapak Widi",
+   "sub": "Cianjur",
+   "period": "",
+   "desc": "Gambar kerja, fasad 3D, dan rendering.",
+   "list": [],
+   "tools": "AutoCAD, SketchUp",
+   "images": [
+    "images/p025-062.jpg"
+   ],
+   "types": [
+    "3d"
+   ]
+  },
+  {
+   "id": "w18",
+   "title": "Rumah Ibu Neta",
+   "sub": "Tangerang",
+   "period": "",
+   "desc": "Gambar kerja, fasad 3D, dan rendering.",
+   "list": [],
+   "tools": "AutoCAD, SketchUp",
+   "images": [
+    "images/p025-063.jpg"
+   ],
+   "types": [
+    "3d"
+   ]
+  },
+  {
+   "id": "w19",
+   "title": "Shop drawing arsitektural — renovasi rumah Ibu Febi",
+   "sub": "Bintaro",
+   "period": "",
+   "desc": "Gambar kerja renovasi rumah Ibu Febi, Bintaro (18 Nov 2025). Denah, tampak, potongan, atap, kusen, dan detail kolam ikan.",
+   "list": [
+    "DED",
+    "Shop drawing"
+   ],
+   "tools": "AutoCAD",
+   "images": [
+    "images/dwg-29.jpg",
+    "images/dwg-30.jpg",
+    "images/dwg-31.jpg",
+    "images/dwg-32.jpg",
+    "images/dwg-33.jpg",
+    "images/dwg-34.jpg",
+    "images/dwg-35.jpg",
+    "images/dwg-36.jpg",
+    "images/dwg-37.jpg",
+    "images/dwg-38.jpg",
+    "images/dwg-39.jpg",
+    "images/dwg-40.jpg",
+    "images/dwg-41.jpg"
+   ],
+   "types": [
+    "2d",
+    "2d",
+    "2d",
+    "2d",
+    "2d",
+    "2d",
+    "2d",
+    "2d",
+    "2d",
+    "2d",
+    "2d",
+    "2d",
+    "2d"
+   ]
+  },
+  {
+   "id": "w20",
+   "title": "Shop drawing struktural — renovasi rumah Ibu Febi",
+   "sub": "Bintaro",
+   "period": "",
+   "desc": "Gambar kerja renovasi rumah Ibu Febi, Bintaro (18 Nov 2025). Pondasi, sloof, dan detail struktur.",
+   "list": [
+    "DED",
+    "Shop drawing"
+   ],
+   "tools": "AutoCAD",
+   "images": [
+    "images/dwg-43.jpg",
+    "images/dwg-44.jpg",
+    "images/dwg-45.jpg",
+    "images/dwg-46.jpg",
+    "images/dwg-47.jpg",
+    "images/dwg-48.jpg",
+    "images/dwg-49.jpg",
+    "images/dwg-50.jpg"
+   ],
+   "types": [
+    "2d",
+    "2d",
+    "2d",
+    "2d",
+    "2d",
+    "2d",
+    "2d",
+    "2d"
+   ]
+  },
+  {
+   "id": "w21",
+   "title": "Shop drawing mekanikal & elektrikal — renovasi rumah Ibu Febi",
+   "sub": "Bintaro",
+   "period": "",
+   "desc": "Gambar kerja renovasi rumah Ibu Febi, Bintaro (18 Nov 2025).",
+   "list": [
+    "DED",
+    "Shop drawing"
+   ],
+   "tools": "AutoCAD",
+   "images": [
+    "images/dwg-52.jpg",
+    "images/dwg-53.jpg",
+    "images/dwg-54.jpg"
+   ],
+   "types": [
+    "2d",
+    "2d",
+    "2d"
+   ]
+  },
+  {
+   "id": "w22",
+   "title": "Shop drawing plumbing — renovasi rumah Ibu Febi",
+   "sub": "Bintaro",
+   "period": "",
+   "desc": "Gambar kerja renovasi rumah Ibu Febi, Bintaro (18 Nov 2025).",
+   "list": [
+    "DED",
+    "Shop drawing"
+   ],
+   "tools": "AutoCAD",
+   "images": [
+    "images/dwg-56.jpg",
+    "images/dwg-57.jpg"
+   ],
+   "types": [
+    "2d",
+    "2d"
+   ]
+  }
+ ],
+ "docs": [
+  {
+   "id": "d1",
+   "title": "Pembangunan rumah Ibu Ella",
+   "sub": "Cianjur",
+   "period": "",
+   "desc": "Dokumentasi progres konstruksi di lapangan.",
+   "list": [],
+   "tools": "",
+   "images": [
+    "images/p059-267.jpg",
+    "images/p059-268.jpg"
+   ]
+  },
+  {
+   "id": "d2",
+   "title": "Pembangunan rumah Bapak Iqbal",
+   "sub": "Banten",
+   "period": "",
+   "desc": "Dokumentasi progres konstruksi di lapangan.",
+   "list": [],
+   "tools": "",
+   "images": [
+    "images/p060-269.jpg"
+   ]
+  },
+  {
+   "id": "d3",
+   "title": "Pengawasan struktur di lapangan",
+   "sub": "",
+   "period": "",
+   "desc": "Pemantauan pekerjaan di lokasi proyek.",
+   "list": [],
+   "tools": "",
+   "images": [
+    "images/p058-266.jpg"
+   ]
+  },
+  {
+   "id": "d4",
+   "title": "Proses kerja desain",
+   "sub": "",
+   "period": "",
+   "desc": "Menyusun gambar kerja dan model 3D.",
+   "list": [],
+   "tools": "",
+   "images": [
+    "images/p061-270.jpg"
+   ]
+  }
+ ]
+}
